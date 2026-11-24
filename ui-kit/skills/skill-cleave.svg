@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><defs>
+  <radialGradient id="bg"><stop stop-color="#4a2b18"/><stop offset=".72" stop-color="#121e23"/><stop offset="1" stop-color="#080e12"/></radialGradient>
+  <radialGradient id="aura"><stop stop-color="#f7b15a" stop-opacity=".8"/><stop offset="1" stop-color="#f7b15a" stop-opacity="0"/></radialGradient>
+  <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffebba"/><stop offset=".45" stop-color="#f7b15a"/><stop offset="1" stop-color="#4a5260"/></linearGradient>
+  <linearGradient id="flame" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#ffd894"/><stop offset=".48" stop-color="#ff7f25"/><stop offset="1" stop-color="#8a2510"/></linearGradient>
+  <linearGradient id="border" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#e0c68c"/><stop offset=".38" stop-color="#705638"/><stop offset=".65" stop-color="#8a6b48"/><stop offset="1" stop-color="#382d24"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="4"/></filter></defs>
+  <rect width="256" height="256" rx="24" fill="#080b0d"/>
+  <path d="M28 8H228L248 28V228L228 248H28L8 228V28Z" fill="url(#border)"/>
+  <path d="M34 16H222L240 34V222L222 240H34L16 222V34Z" fill="url(#bg)" stroke="#242a2a" stroke-width="3"/>
+  <path d="M35 34H85M171 34H221M35 221H85M171 221H221" stroke="#f7b15a" stroke-width="3" opacity=".47"/>
+  <circle cx="128" cy="128" r="95" fill="url(#aura)" opacity=".24"/>
+  
+   <path d="M127 35 143 89 143 170 126 194 109 170 109 89Z" fill="url(#metal)" stroke="#ffe1a1" stroke-width="3"/><path d="M127 38 128 167" stroke="#ffeec1" stroke-width="4"/><path d="M76 87 177 87 165 103 88 103Z" fill="#a97a46" stroke="#f5cf8c" stroke-width="3"/><circle cx="126" cy="95" r="7" fill="#ffe49c"/>
+   <path d="M36 189 Q126 159 218 189" stroke="#e5792b" stroke-width="13" opacity=".7" fill="none"/><path d="M36 189 Q126 159 218 189" stroke="#ffc065" stroke-width="5" fill="none"/><path d="M125 165 114 211 137 211Z" fill="#ffae37" opacity=".95"/>
+   <path d="M37 208 59 179 72 220Z M184 198 214 177 218 219Z M81 217 94 198 104 220Z M150 214 167 194 175 226Z" fill="#ac7c4c" stroke="#ffe0aa" stroke-width="2"/>
+   <path d="M25 228Q129 196 231 228" fill="none" stroke="#ffbd66" stroke-width="4" opacity=".75"/>
+  <path d="M21 59V33L33 21H59 M197 21H223L235 33V59 M21 197V223L33 235H59 M197 235H223L235 223V197" stroke="#f6d393" stroke-width="3" fill="none" opacity=".82"/>
+  <path d="M118 22h20l-10 10Z M118 234h20l-10-10Z" fill="#f7b15a"/>
+  </svg>
